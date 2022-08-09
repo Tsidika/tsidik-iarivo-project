@@ -1,3 +1,7 @@
+* {
+    font-family: Garamond;
+}
+
 .home {
     position: relative;
     height: 100%;
@@ -45,19 +49,18 @@
 
 .btnHeader button:hover,
 .btn button:hover {
-    background-color: #FFEA11;
-    color: black;
+    border: 1px solid #FFEA11;
 }
 
 .btnHeader button {
     width: 200px;
-    height: 50px;
+    height: 46px;
     background-color: transparent;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 15px;
-    border: 2px solid #FFEA11;
+    font-size: 18px;
+    border: 2px solid white;
 }
 
 .title {
@@ -78,7 +81,7 @@
 }
 
 .titleBody {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .cube {
@@ -149,9 +152,9 @@
 
 .btn button {
     margin-top: 50px;
-    width: 300px;
-    height: 70px;
-    border: 2px solid #FFEA11;
+    width: 200px;
+    height: 46px;
+    border: 2px solid white;
     border-radius: 5px;
     color: white;
     background-color: transparent;
@@ -160,11 +163,11 @@
     flex-direction: row;
     margin: 0 auto;
     float: left;
+    align-items: center;
 }
 
 #Btext {
-    font-size: 25px;
-    margin-top: 15px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -181,7 +184,7 @@
 }
 
 .footer {
-    background-color: #023044;
+    background-color: #03151D;
     display: flex;
     justify-content: center;
     flex-direction: column;

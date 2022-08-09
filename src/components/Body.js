@@ -6,11 +6,11 @@ export class Body extends Component {
       <div className="corps">
         <div className="titleBody">
           <div className="cube">
-            <div className="jaune" style={{ fontSize: "100px" }}>
+            <div className="jaune" style={{ fontSize: "80px" }}>
               S 'informer,
             </div>
-            <div style={{ fontSize: "100px" }}>Réserver</div>
-            <div style={{ fontSize: "100px" }}>sans se déplacer</div>
+            <div style={{ fontSize: "80px" }}>Réserver</div>
+            <div style={{ fontSize: "80px" }}>sans se déplacer</div>
             <div>
               <p>
                 Soyer le premier a etre au courant lors de grand actualités du
