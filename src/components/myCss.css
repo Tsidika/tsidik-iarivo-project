@@ -52,6 +52,10 @@
     border: 1px solid #FFEA11;
 }
 
+.btn button:active {
+    background-color: #FFEA11;
+}
+
 .btnHeader button {
     width: 200px;
     height: 46px;
