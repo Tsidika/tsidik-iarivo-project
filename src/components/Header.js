@@ -8,10 +8,18 @@ export class Header extends Component {
       <div>
         <div className="header">
           <div className="logo">
-            <img src={Logo} alt="" srcset="" width="90" height="90" />
+            <img src={Logo} alt="" srcset="" width="70" height="70" />
           </div>
           <div className="title">
             <h2> Tsidik'Iarivo </h2>
+          </div>
+          <div className="btnHeader">
+            <div style={{ paddingRight: "15px" }}>
+              <button>S'inscrire</button>
+            </div>
+            <div>
+              <button>Se Connecter</button>
+            </div>
           </div>
         </div>
       </div>
