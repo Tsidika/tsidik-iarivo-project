@@ -201,76 +201,114 @@
 /* Inscription */
 
 .inscription {
-    background-image: url("../images/bcakground.png");
+    background-image: url("../images/background.jpg");
     background-position: center;
     background-size: cover;
-    background-size: 100% 100%;
+    display: flex;
+    position: relative;
     height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .parentContainer {
-    background-color: white;
-    width: 550px;
+    background-color: #03151D;
+    width: 462px;
     display: flex;
     justify-content: center;
     margin: 12px;
     border-radius: 10px;
+    height: 668px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    width: 290px;
 }
 
 .btnContainer {
-    margin-top: 70px;
+    padding-top: -10px;
 }
 
 .btnContainer button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 400px;
+    width: 286px;
     border-radius: 10px;
-    border: none;
-    height: 55px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 41px;
+    align-items: center;
+    background-color: transparent;
 }
 
 .googleLogo img {
-    margin-top: 2px;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
 }
 
 .conectGoogle {
-    margin-top: 18px;
-    padding-left: 50px;
+    padding-left: 15px;
     font-size: 18px;
+    color: #FFFFFF;
 }
 
-div>input {
-    width: 396px;
-    border: 1px solid #b9c4c9;
-    height: 55px;
+.inLogin>input {
+    width: 286px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+    height: 37px;
     background: transparent;
     font-size: 18px;
     margin-top: 10px;
+    color: aliceblue;
 }
 
 div>label {
     float: left;
     margin-top: 30px;
-    color: #758992;
+    color: #0078AA;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .confirmerGoogle {
-    margin-top: 15px;
     font-size: 18px;
 }
 
 #confirm {
-    background-color: #0078AA;
+    border: 1px solid rgba(255, 234, 17, 0.43);
+    border-radius: 10px;
     color: white;
+    margin-top: 20px;
 }
+
+.containerInscription {
+    width: 1617px;
+    margin: 0 auto;
+}
+
+.radioButton {
+    width: 300px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.radioEntreprise {
+    padding-left: 145px;
+}
+
+.radioButton>input {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* Partie Animation */

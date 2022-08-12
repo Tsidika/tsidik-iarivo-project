@@ -8,11 +8,21 @@ class Login extends Component {
       <div className="parentContainer">
         <div className="container">
           <div>
-            <h1 style={{ fontWeight: "normal" }}>Inscription</h1>
+            <h1
+              style={{
+                fontWeight: "normal",
+                margin: "0px",
+                marginTop: "25px",
+                color: "#FFEA11",
+                marginBottom: "43px",
+              }}
+            >
+              Inscription
+            </h1>
           </div>
 
           <div className="btnContainer">
-            <button className="btnInscription">
+            <button>
               <div className="googleLogo">
                 <img src={Google} alt="" srcset="" />
               </div>
@@ -23,26 +33,48 @@ class Login extends Component {
           <div>
             <h1
               style={{
-                color: "#758992",
+                color: "#FFFFFF",
                 fontWeight: "normal",
                 fontSize: "25px",
-                paddingTop: "30px",
+                paddingTop: "20px",
+                textAlign: "center",
               }}
             >
               Ou
             </h1>
           </div>
 
-          <div>
+          <div className="inLogin">
             <label htmlFor="name">Email</label>
             <br />
             <input type="Email" name="name" id="" />
           </div>
 
-          <div>
+          <div className="inLogin">
             <label htmlFor="psw">Mots de passe</label>
             <br />
             <input type="password" name="psw" id="" />
+
+            <div
+              style={{
+                marginTop: "10px",
+                fontSize: "14px",
+                float: "right",
+                color: "white",
+              }}
+            >
+              Mots de passe Oublié ?
+            </div>
+          </div>
+
+          <div className="radioButton">
+            <div>
+              <input type="radio" name="" id="" /> Client
+            </div>
+            <div className="radioEntreprise">
+              <input type="radio" name="" id="" />
+              Entreprise
+            </div>
           </div>
 
           <div className="btnContainer">
@@ -51,8 +83,16 @@ class Login extends Component {
             </button>
           </div>
 
-          <div style={{ marginTop: "10px", height: "100px", fontSize: "14px" }}>
-            Vous avez un compte?
+          <div
+            style={{
+              paddingTop: "20px",
+              height: "100px",
+              fontSize: "14px",
+              textAlign: "center",
+              color: "#FFFFFF",
+            }}
+          >
+            Vous avez un compte ?{" "}
             <a href=" " style={{ textDecoration: "none", color: "#0078AA" }}>
               Connexion
             </a>

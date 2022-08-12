@@ -1,0 +1,43 @@
+.conatainerAnimation {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    position: absolute;
+    z-index: 1;
+    width: 630px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.icon1 {
+    float: right;
+    margin-top: 100px;
+}
+
+.icon2 {
+    margin-top: 300px;
+    padding-left: 20px;
+}
+
+.icon3 {
+    padding-top: 250px;
+    margin: 0 auto;
+    width: 130px;
+    animation-name: exemple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes exemple {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.3)
+    }
+}
