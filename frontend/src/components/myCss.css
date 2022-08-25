@@ -1,0 +1,314 @@
+* {
+    font-family: Garamond;
+}
+
+.home {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.home video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.bloc {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: normal;
+    align-items: center;
+    height: 100px;
+}
+
+.btnHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btnHeader button:hover,
+.btn button:hover {
+    border: 1px solid #FFEA11;
+}
+
+.btn button:active {
+    background-color: #FFEA11;
+}
+
+.btnHeader button {
+    width: 200px;
+    height: 46px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title h2 {
+    line-height: 85px;
+}
+
+.corps {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleBody {
+    margin-top: 100px;
+}
+
+.cube {
+    width: 700px;
+    height: 750px;
+}
+
+.cube>div {
+    width: 800px;
+    display: inline-block;
+    text-align: left;
+}
+
+.cube p {
+    transform: rotate(180deg);
+    text-align: right;
+}
+
+.title h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.jaune {
+    color: #FFEA11;
+}
+
+#white {
+    color: white;
+}
+
+.pub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.pub>div {
+    width: 300px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.pub div:hover {
+    background-color: rgba(109, 109, 109, 0.5);
+    transform: scale(1.2);
+}
+
+.pub div>p {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.blue {
+    color: #0078AA;
+}
+
+.btn {
+    margin-top: 100px;
+}
+
+.btn button {
+    margin-top: 50px;
+    width: 200px;
+    height: 46px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    float: left;
+    align-items: center;
+}
+
+#Btext {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.trait {
+    font-size: 30px;
+    border-top: 2px solid #FFEA11;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.trait>div {
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #03151D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    color: white;
+    margin-top: 100px;
+}
+
+
+/* Inscription */
+
+.inscription {
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parentContainer {
+    background-color: #03151D;
+    width: 462px;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+    border-radius: 10px;
+    height: 668px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 290px;
+}
+
+.btnContainer {
+    padding-top: -10px;
+}
+
+.btnContainer button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 286px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 41px;
+    align-items: center;
+    background-color: transparent;
+}
+
+.googleLogo img {
+    width: 25px;
+    height: 25px;
+}
+
+.conectGoogle {
+    padding-left: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.inLogin>input {
+    width: 286px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+    height: 37px;
+    background: transparent;
+    font-size: 18px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+div>label {
+    float: left;
+    margin-top: 30px;
+    color: #0078AA;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.confirmerGoogle {
+    font-size: 18px;
+}
+
+#confirm {
+    border: 1px solid rgba(255, 234, 17, 0.43);
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+.containerInscription {
+    width: 1617px;
+    margin: 0 auto;
+}
+
+.radioButton {
+    width: 300px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.radioEntreprise {
+    padding-left: 145px;
+}
+
+.radioButton>input {
+    width: 15px;
+    height: 15px;
+}
+
+
+/* Partie Animation */
