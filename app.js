@@ -13,16 +13,16 @@ app.use((req, res, next) => {
   });
 
 //connexion mongoose
-mongoose.connect('mongodb+srv://Ursule:susule@cluster0.19evv.mongodb.net/?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Ursule:susule@cluster0.19evv.mongodb.net/Tsidika_BD?retryWrites=true&w=majority',
 { useNewUrlParser: true,
   useUnifiedTopology: true })
 .then(() => console.log('Connexion à MongoDB réussie !'))
 .catch(() => console.log('Connexion à MongoDB échouée !'));
 
 
-app.use("/",(req, res, next) =>{
+/*app.use("/",(req, res, next) =>{
   res.status(201).json({message:"Te hitsidika ve?" })
-})
+})*/
 
-app.use('/api/user', userRoutes);
+app.use('/api/user',userRoutes);
 module.exports= app;
